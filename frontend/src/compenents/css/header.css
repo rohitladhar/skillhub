@@ -1,0 +1,37 @@
+.header {
+    height: 60px;
+    display: flex;
+    background: linear-gradient(to right, #f1bacc, #5fc3e4);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header__logo {
+    height: auto;
+    width: auto;
+    float: left;
+    max-height: 72px;
+    max-width: 144px;
+  }
+  
+  .header__ul{
+    list-style-type: none;
+    width:100%;
+  }
+  
+  .header__li{
+    float:right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:15px;
+    font-weight: 800;
+    font-size:1.2rem;
+    color:whitesmoke;
+  }
+  
+  .header__li__link{
+    color:white;
+    text-decoration:none;
+    cursor: pointer;
+  }

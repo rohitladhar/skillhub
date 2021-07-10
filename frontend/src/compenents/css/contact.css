@@ -1,0 +1,55 @@
+.contact{
+    padding-top:10px;
+}
+
+input{
+    padding:10px;
+    outline:none;
+    margin: 10px;
+    font-size:1.1rem; 
+}
+
+.errorMessage{
+    color: red;
+    font-size:.8rem;
+}
+
+
+textarea{
+    padding:10px;
+    outline:none;
+    margin: 10px;
+    font-size:1.1rem; 
+}
+
+
+.contact__container form{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:400px;
+    display:grid;
+    height:60vh;
+    border-radius:3%;
+}
+
+.contact__container h1{
+    font-size:2.3rem;
+    margin-top:30px;
+    text-align:center;
+
+}
+
+.contact__button{
+    background-color:#5fc3e4;
+    font-size:1.1rem;
+    padding:10px;
+    margin: 10px;
+    border-radius:3%;
+    cursor: pointer;
+    color:white;
+}
+
+.contact__button:hover{
+    background-color:#f1bacc;
+}

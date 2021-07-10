@@ -1,0 +1,42 @@
+.login{
+    padding-top:10px;
+}
+
+input{
+    padding:10px;
+    outline:none;
+    margin: 10px;
+    font-size:1.1rem;
+    
+}
+
+.login__container{
+    border:solid 1px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:400px;
+    display:grid;
+    height:50vh;
+    border-radius:3%;
+}
+
+.login__container h1{
+    font-size:2.3rem;
+    margin-top:30px;
+    text-align:center;
+
+}
+
+.login__button{
+    background-color:#5fc3e4;
+    font-size:1.1rem;
+    padding:10px;
+    margin: 10px;
+    border-radius:3%;
+    cursor: pointer;
+    color:white;
+}
+
+.login__button:hover{
+    background-color:#f1bacc;
+}
